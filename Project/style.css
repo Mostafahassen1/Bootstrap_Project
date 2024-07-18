@@ -1,0 +1,164 @@
+:root{
+    --dark-color: #19283f ;
+    --text-color: #33d1cc ;
+    --red-color: #ff3150;
+    --yellow-color : #ffc400 ;
+    --section-color : #eff7fa ;
+
+}
+ /* Start Navbar */
+
+.navbar{
+    background-color: var(--dark-color);
+}
+.navbar-logo{
+ width: 50px;
+ height: auto;
+ 
+}
+
+
+.navbar .navbar-nav .nav-link {
+    color: var(--text-color);
+    font-size: large;
+}
+
+.navbar .navbar-nav  .link0 ,  
+.navbar .navbar-nav  .link4 
+    {
+    color: rgb(240, 238, 243);
+}
+
+ .search{
+    border-left: 1px solid var(--text-color);
+    color: var(--text-color);
+    padding-left: 15px;
+    padding-right: 18px;
+
+} 
+
+/* End Navbar  */
+
+/* Start Landing */
+.main-btn{
+  background-color: var(--red-color);
+  color: var(--yellow-color);
+  padding: 10px;
+
+}
+.Landing{
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 76px );
+}
+/* End Landing */
+
+ /* Start Featcher */
+.features .icon-holder{
+
+    height: 200px;
+
+}
+
+.features .icon-holder svg{
+    left : 50% ;
+    transform : translateX(-50% , -50%) ;
+}
+
+.features .icon-holder .number {
+    font-size: 12rem;
+    color: var(--section-color);
+    
+    right: 35%;
+}
+
+
+.features .icon-holder .icon {
+    font-size: 3rem; 
+    color: #17a2b8; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right:40% ;
+    transform: translate( -50%, 80%);
+}
+
+.features  .feat  h4 {
+    color: var(--yellow-color);
+}
+
+/* End Featcher  */
+
+/* Start our-work */
+
+.our-work{
+    background-color: var(--section-color);
+}
+
+.our-work ul .Active{
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+}
+.our-work ul li {
+    padding: 0.5rem 1rem ;
+    cursor: pointer;
+}
+
+.our-work .box{
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+/* End our-work */
+
+/* Start stuff */
+
+.stuff  .description{
+    max-width: 500px;
+} 
+
+/* End stuff */
+
+/* Start Team */
+
+.team{
+    background-color: var(--section-color);
+}
+
+.team  .main-title h2 {
+color: var(--yellow-color);
+}
+
+
+.team .custom-img {
+    height: 240px;
+    width: auto; 
+}
+
+.team .row .box h4 {
+    background-color: var(--text-color);
+}
+
+
+/* End Team */
+
+
+/* Start tech  */
+.tech .small-icon {
+    width: 50px;
+    height: 50px;
+}
+/* End tech */
+
+
+/* Start Project */
+.project{
+    background-color: var(--dark-color);
+}
+/* End Project */
+
+/* Start Blog */
+.blog .card .card-image-top {
+    height: 150px;
+}
+
+/* End Blog */
