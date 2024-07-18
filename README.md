@@ -18,8 +18,20 @@
 
 **Blog Section:** Displaying the latest blog posts with featured images.
 
-### Technologies Used
+## Technologies Used
+
 **HTML5**
+
 **CSS3**
+
 **Bootstrap 5**
+
 **Font Awesome**
+
+
+
+
+
+
+
+
